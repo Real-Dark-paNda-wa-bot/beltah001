@@ -176,7 +176,7 @@ if (autobio === 'TRUE'){
 
                          client.updateProfileStatus( 
 
-                                         `|🍃|𝖕𝖆_𝖓_𝖉𝖆🥹💗\n,${date.toLocaleString('en-US', { timeZone: 'Asia/colombo' })} on ${date.toLocaleString('en-US', { weekday: 'long', timeZone: 'Asia/colombo'})}.` 
+                                         `|🍃|𝖕𝖆_𝖓_𝖉𝖆🥹💗\n,${date.toLocaleString('en-US', { timeZone: 'Asia/colombo' })} on ${date.toLocaleString('en-US', { weekday: 'long', timeZone: 'Asia/colombo'})}.𝐣𝐮𝐬𝐭 𝐧𝐨𝐰 𝐬𝐫𝐢 𝐥𝐚𝐧𝐤𝐚 𝐭𝐢𝐦𝐞.𝐜𝐫𝐞𝐚𝐭 𝐛𝐲 𝐬𝐨𝐯𝐢𝐲𝐚.` 
 
                                  ) 
 
