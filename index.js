@@ -176,7 +176,7 @@ if (autobio === 'TRUE'){
 
                          client.updateProfileStatus( 
 
-                                         `|🍃|𝖕𝖆_𝖓_𝖉𝖆🥹💗\n,${date.toLocaleString('en-US', { timeZone: 'srilanka/colombo' })} on ${date.toLocaleString('en-US', { weekday: 'long', timeZone: 'sri lanka/colombo'})}.` 
+                                         `|🍃|𝖕𝖆_𝖓_𝖉𝖆🥹💗\n,${date.toLocaleString('en-US', { timeZone: 'sri lanka/colombo' })} on ${date.toLocaleString('en-US', { weekday: 'long', timeZone: 'sri lanka/colombo'})}.` 
 
                                  ) 
 
