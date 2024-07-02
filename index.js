@@ -1,6 +1,6 @@
 const sessionName = "dreaded1";
 const antiforeign = process.env.ANTIFOREIGN || 'FALSE';
-const autobio = process.env.AUTOBIO || 'TRUE';
+const autobio = process.env.AUTOBIO || 'FALSE';
 let botname = process.env.BOTNAME || '𝙸 𝚊𝚖 |🍃|𝖕𝖆_𝖓_𝖉𝖆🥹💗';
 
 const owner = process.env.DEV || '94773824266'; // This will send a notification once the bot reconnects
