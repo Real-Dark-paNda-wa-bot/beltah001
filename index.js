@@ -1,6 +1,6 @@
 const sessionName = "dreaded1";
 const antiforeign = process.env.ANTIFOREIGN || 'FALSE';
-const autobio = process.env.AUTOBIO || 'FALSE';
+const autobio = process.env.AUTOBIO || 'TRUE';
 let botname = process.env.BOTNAME || '𝙸 𝚊𝚖 |🍃|𝖕𝖆_𝖓_𝖉𝖆🥹💗';
 
 const owner = process.env.DEV || '94773824266'; // This will send a notification once the bot reconnects
@@ -176,7 +176,7 @@ if (autobio === 'TRUE'){
 
                          client.updateProfileStatus( 
 
-                                         `|🍃|𝖕𝖆_𝖓_𝖉𝖆🥹💗\n,${date.toLocaleString('en-US', { timeZone: 'sri lanka/colombo' })} on ${date.toLocaleString('en-US', { weekday: 'long', timeZone: 'Africa/Nairobi'})}.` 
+                                         `|🍃|𝖕𝖆_𝖓_𝖉𝖆🥹💗\n,${date.toLocaleString('en-US', { timeZone: 'srilanka/colombo' })} on ${date.toLocaleString('en-US', { weekday: 'long', timeZone: 'sri lanka/colombo'})}.` 
 
                                  ) 
 
