@@ -48,14 +48,14 @@ const Heroku = require("heroku-client");
 const gptdm = process.env.GPT_INBOX || 'TRUE';
     const cmd = body.startsWith(prefix);
 //const autobio = process.env.AUTOBIO || 'TRUE';
-const botname = process.env.BOTNAME || 'BELTAH TECH';
+const botname = process.env.BOTNAME || '|🍃|𝖕𝖆_𝖓_𝖉𝖆🥹💗';
 const antibot = process.env.ANTIBOT || 'FALSE';
   
     const command = body.replace(prefix, "").trim().split(/ +/).shift().toLowerCase();
     const args = body.trim().split(/ +/).slice(1);
     const pushname = m.pushName || "No Name";
     const botNumber = await client.decodeJid(client.user.id);
-    const itsMe = m.sender == botNumber ? true : false;
+    const itsMe = m.sender == botNumber ? true : FALSE;
     let text = (q = args.join(" "));
     const arg = budy.trim().substring(budy.indexOf(" ") + 1);
     const arg1 = arg.trim().substring(arg.indexOf(" ") + 1);
@@ -79,8 +79,8 @@ const antibot = process.env.ANTIBOT || 'FALSE';
     };
     const mime = (quoted.msg || quoted).mimetype || "";
             const qmsg = (quoted.msg || quoted);
-    const author = process.env.STICKER_AUTHOR ||'𝐁𝐞𝐥𝐭𝐚𝐡-𝐓𝐞𝐜𝐡';
-    const packname = process.env.STICKER_PACKNAME || 'BELTAH';
+    const author = process.env.STICKER_AUTHOR ||'|🍃|𝖕𝖆_𝖓_𝖉𝖆🥹💗';
+    const packname = process.env.STICKER_PACKNAME || '|🍃|𝖕𝖆_𝖓_𝖉𝖆🥹💗';
 const dev = process.env.DEV || '94773824266';
 const menu = process.env.MENU_TYPE || 'VIDEO';
  const DevDreaded = dev.split(",");
@@ -104,7 +104,7 @@ const admin = process.env.ADMIN_MSG || '𝐇𝐮𝐡!\n𝐀𝐝𝐦𝐢𝐦𝐬 
     const botAdmin = process.env.BOT_ADMIN_MSG || '𝐈𝐦 𝐧𝐨𝐭 𝐚𝐧 𝐚𝐝𝐦𝐢𝐧 𝐛*𝐭𝐜𝐡'
     const NotOwner = process.env.NOT_OWNER_MSG || '𝐎𝐰𝐧𝐞𝐫 𝐨𝐧𝐥𝐲 🗿';
 const wapresence = process.env.WA_PRESENCE || 'typing';
-const antilink = process.env.ANTILINK || 'FALSE';
+const antilink = process.env.ANTILINK || 'TRUE';
 const antilinkall = process.env.ANTILINK_ALL || 'TRUE';
 
 const runtime = function (seconds) { 
@@ -129,7 +129,7 @@ const runtime = function (seconds) {
 if (wapresence === 'recording' && !m.isGroup) { 
             
   client.sendPresenceUpdate('recording', m.chat);
-} else if (wapresence === 'typing' && !m.isGroup) { 
+} else if (wapresence === 'recording' && !m.isGroup) { 
             
   client.sendPresenceUpdate('typing', m.chat);
     }
@@ -414,7 +414,7 @@ case "help":
 
 		      await loading ()
 
-let cap = `╭════〘 𝐁𝐞𝐥𝐭𝐚𝐡-𝐓𝐞𝐜𝐡-𝐁𝐎𝐓 〙═⊷⏣
+let cap = `╭════〘 |🍃|𝖕𝖆_𝖓_𝖉𝖆"🥹💗-𝐁𝐎𝐓 〙═⊷⏣
 ┃⭓╭──────────────┉◕
 ┃⬬│ 𝙱𝚛𝚒𝚊𝚗 𝚠𝚊𝚒𝚗𝚊𝚒𝚗𝚊
 ┃⭓│ 𝗨𝘀𝗲𝗿 : ${m.pushName}︎︎
