@@ -55,7 +55,7 @@
       "required": true
     },
       "AUTOREAD": {
-      "description": "Put here TRUE if you want bot to automatically bluetick messages in private chats",
+      "description": "Put here TRUE if you want bot to automatically bluetick messages in group chats",
       "required": false
 },
  "AUTOVIEW": {
