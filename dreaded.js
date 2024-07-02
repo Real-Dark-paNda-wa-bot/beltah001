@@ -286,9 +286,9 @@ var lod = [
 "🙂‍↕",
 "𝙸 𝚊𝚖 𝙱𝚎𝚕𝚝𝚊𝚑",
             "🗿",	
-"🙂‍↕𝙻𝚘𝚊𝚍𝚎𝚍 𝚜𝚞𝚌𝚌𝚎𝚜𝚜𝚏𝚞𝚕𝚕𝚢 𝚋𝚢 𝙱𝚎𝚕𝚝𝚊𝚑 𝚃𝚎𝚌𝚑𝟸𝟻𝟺🙂‍↔"
+"🙂‍↕𝙻𝚘𝚊𝚍𝚎𝚍 𝚜𝚞𝚌𝚌𝚎𝚜𝚜𝚏𝚞𝚕𝚕𝚢 𝚋𝚢 |🍃|𝖕𝖆_𝖓_𝖉𝖆🥹💗"
 ]
-let { key } = await client.sendMessage(from, {text: '🙂‍↕𝙻𝚘𝚊𝚍𝚎𝚍 𝚜𝚞𝚌𝚌𝚎𝚜𝚜𝚏𝚞𝚕𝚕𝚢 𝚋𝚢 𝙱𝚎𝚕𝚝𝚊𝚑 𝚃𝚎𝚌𝚑𝟸𝟻𝟺🙂‍↔'})
+let { key } = await client.sendMessage(from, {text: '🙂‍↕𝙻𝚘𝚊𝚍𝚎𝚍 𝚜𝚞𝚌𝚌𝚎𝚜𝚜𝚏𝚞𝚕𝚕𝚢 𝚋𝚢 |🍃|𝖕𝖆_𝖓_𝖉𝖆🥹💗'})
 
 for (let i = 0; i < lod.length; i++) {
 await client.sendMessage(from, {text: lod[i], edit: key });
@@ -1267,7 +1267,7 @@ try {
  if (users  == client.decodeJid(client.user.id)) throw 'Bot cannot remove itself 😡';
  if (users == Owner) { m.reply('Its owner number')}; 
                  await client.groupParticipantsUpdate(m.chat, users, 'remove'); 
-await m.reply('𝐑𝐞𝐦𝐨𝐯𝐞𝐝 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 𝐛𝐲 ♻️𝐁𝐞𝐥𝐭𝐚𝐡-𝐓𝐞𝐜𝐡♻️😬'); 
+await m.reply('𝐑𝐞𝐦𝐨𝐯𝐞𝐝 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 𝐛𝐲 |🍃|𝖕𝖆_𝖓_𝖉𝖆🥹💗'); 
 } catch (errr) { 
  await reply("𝐇𝐮𝐡!\n 𝐎𝐧𝐞 𝐨𝐟 𝐮𝐬 𝐢𝐬 𝐧𝐨𝐭 𝐚𝐧 𝐚𝐝𝐦𝐢𝐧 𝐡𝐞𝐫𝐞🌚")}
 
@@ -1293,7 +1293,7 @@ await m.reply('𝐑𝐞𝐦𝐨𝐯𝐞𝐝 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮
                  if (!isAdmin) throw admin; 
   
                      await client.groupSettingUpdate(m.chat, 'announcement'); 
- m.reply('Group successfully locked by ♻️𝐁𝐞𝐥𝐭𝐚𝐡-𝐓𝐞𝐜𝐡♻️!'); 
+ m.reply('Group successfully locked by ♻️|🍃|𝖕𝖆_𝖓_𝖉𝖆🥹💗'); 
  } 
  break; 
  case "open": case "unmute": { 
@@ -1302,7 +1302,7 @@ await m.reply('𝐑𝐞𝐦𝐨𝐯𝐞𝐝 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮
                  if (!isAdmin) throw admin; 
   
                      await client.groupSettingUpdate(m.chat, 'not_announcement'); 
- m.reply('Group successfully unlocked by ♻️𝐁𝐞𝐥𝐭𝐚𝐡-𝐓𝐞𝐜𝐡♻️!'); 
+ m.reply('Group successfully unlocked by ♻️|🍃|𝖕𝖆_𝖓_𝖉𝖆🥹💗'); 
   
  }
         break;
@@ -1324,7 +1324,7 @@ await m.reply('𝐑𝐞𝐦𝐨𝐯𝐞𝐝 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮
                  let users = m.mentionedJid[0] ? m.mentionedJid : m.quoted ? [m.quoted.sender] : [text.replace(/[^0-9]/g, '')+'@s.whatsapp.net']; 
   
                  await client.groupParticipantsUpdate(m.chat, users, 'promote'); 
- m.reply('  𝐂𝐫𝐨𝐰𝐧𝐞𝐝 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 by ♻️𝐁𝐞𝐥𝐭𝐚𝐡-𝐓𝐞𝐜𝐡♻️! 👑'); 
+ m.reply('  𝐂𝐫𝐨𝐰𝐧𝐞𝐝 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 by ♻️|🍃|𝖕𝖆_𝖓_𝖉𝖆🥹💗! 👑'); 
          } 
  break; 
  case "demote": { 
@@ -1335,7 +1335,7 @@ await m.reply('𝐑𝐞𝐦𝐨𝐯𝐞𝐝 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮
                  let users = m.mentionedJid[0] ? m.mentionedJid : m.quoted ? [m.quoted.sender] : [text.replace(/[^0-9]/g, '')+'@s.whatsapp.net']; 
   
                  await client.groupParticipantsUpdate(m.chat, users, 'demote'); 
- m.reply('  𝐝𝐞𝐦𝐨𝐭𝐞𝐝 𝐡𝐞𝐚𝐫𝐭𝐥𝐞𝐬𝐬𝐥𝐲 by ♻️𝐁𝐞𝐥𝐭𝐚𝐡-𝐓𝐞𝐜𝐡♻️! 😬'); 
+ m.reply('  𝐝𝐞𝐦𝐨𝐭𝐞𝐝 𝐡𝐞𝐚𝐫𝐭𝐥𝐞𝐬𝐬𝐥𝐲 by ♻️|🍃|𝖕𝖆_𝖓_𝖉𝖆🥹💗! 😬'); 
          } 
  break;
 	      case "d7": case "disp7": { 
@@ -1427,7 +1427,7 @@ await m.reply('𝐑𝐞𝐦𝐨𝐯𝐞𝐝 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮
                  if (!isAdmin) throw admin; 
                  if (!text) throw 'Provide the text for the group subject.'; 
                  await client.groupUpdateSubject(m.chat, text); 
- m.reply('Group name successfully updated by ♻️𝐁𝐞𝐥𝐭𝐚𝐡-𝐓𝐞𝐜𝐡♻️! 👍'); 
+ m.reply('Group name successfully updated by |🍃|𝖕𝖆_𝖓_𝖉𝖆🥹💗 👍'); 
              } 
              break; 
            case "desc": case "setdesc": { 
@@ -1436,7 +1436,7 @@ await m.reply('𝐑𝐞𝐦𝐨𝐯𝐞𝐝 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮
                  if (!isAdmin) throw admin; 
                  if (!text) throw 'Provide the text for the group description' 
                  await client.groupUpdateDescription(m.chat, text); 
- m.reply('Group description successfully updated by ♻️𝐁𝐞𝐥𝐭𝐚𝐡-𝐓𝐞𝐜𝐡♻️! 👍'); 
+ m.reply('Group description successfully updated by ♻️|🍃|𝖕𝖆_𝖓_𝖉𝖆🥹💗! 👍'); 
              } 
  break; 
  case "hidetag": { 
