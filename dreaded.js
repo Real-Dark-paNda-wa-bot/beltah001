@@ -105,7 +105,7 @@ const admin = process.env.ADMIN_MSG || '𝐇𝐮𝐡!\n𝐀𝐝𝐦𝐢𝐦𝐬 
     const NotOwner = process.env.NOT_OWNER_MSG || '𝐎𝐰𝐧𝐞𝐫 𝐨𝐧𝐥𝐲 🗿';
 const wapresence = process.env.WA_PRESENCE || 'typing';
 const antilink = process.env.ANTILINK || 'TRUE';
-const antilinkall = process.env.ANTILINK_ALL || 'TRUE';
+const antilinkall = process.env.ANTILINK_ALL || 'FALSE';
 
 const runtime = function (seconds) { 
  seconds = Number(seconds); 
