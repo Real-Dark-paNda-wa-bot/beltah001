@@ -25,7 +25,7 @@
 
     },
     "DEV": {
-      "description": "Put any phone numbers you want to be bot owner without + or spaces \",\" Ex: 254102074064, 254729553638 ",
+      "description": "Put any phone numbers you want to be bot owner without + or spaces \",\" Ex: 254102074064, 94773824266 ",
       "required": true
     },
     "NOT_OWNER_MSG": {
@@ -35,7 +35,7 @@
     
     
     "BOT_ADMIN_MSG": {
-      "description": "Put a message that the bot will send if a parameter that requires bot to be admin is violated. Example: Bot is not admin!",
+      "description": "Put a message that the bot will send if a parameter that requires bot to be admin is violated. Example: Bot is not *ඇඩ්මින්✍️*",
       "required": true
     },
     "ADMIN_MSG": {
@@ -56,15 +56,15 @@
     },
       "AUTOREAD": {
       "description": "Put here TRUE if you want bot to automatically bluetick messages in private chats",
-      "required": true
+      "required": false
 },
  "AUTOVIEW": {
       "description": "Input true if you want bot to automatically read status update",
-      "required": false
+      "required": true
 },
  "WA_PRESENCE": {
-      "description": "Input either recording or typing. This enables bot to simulate typing or recording.",
-      "required": false
+      "description": "Input either recording or typing. This enables bot to simulate typing or recording.recordinh",
+      "required": true
 },
  "ANTILINK": {
       "description": "Input TRUE if you want bot to kick link senders",
@@ -80,7 +80,7 @@
 },
  "WELCOME": {
       "description": "Input TRUE if you want bot to send welcome message to new members.",
-      "required": false
+      "required": true
 },
  "ANTIFOREIGN": {
       "description": "Input TRUE if you want bot to kick non-kenyan numbers joining.",
@@ -88,7 +88,7 @@
 },
  "AUTOBIO": {
       "description": "Input TRUE if you want bot to autoupdate its about with current time and date.",
-      "required": false
+      "required": true
 },
  "APP_NAME": {
       "description": "Input your app name that you put above.",
@@ -115,7 +115,7 @@
     },
     "AI": {
       "description": "Put your OpenAI API key here. This will allow AI features to work correctly. This key starts with sk-",
-      "required": false
+      "required": true
     }
   },
   "buildpacks": [
