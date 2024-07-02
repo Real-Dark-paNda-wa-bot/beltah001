@@ -55,7 +55,7 @@ const antibot = process.env.ANTIBOT || 'FALSE';
     const args = body.trim().split(/ +/).slice(1);
     const pushname = m.pushName || "No Name";
     const botNumber = await client.decodeJid(client.user.id);
-    const itsMe = m.sender == botNumber ? true : FALSE;
+    const itsMe = m.sender == botNumber ? true : true;
     let text = (q = args.join(" "));
     const arg = budy.trim().substring(budy.indexOf(" ") + 1);
     const arg1 = arg.trim().substring(arg.indexOf(" ") + 1);
